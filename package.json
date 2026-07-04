@@ -4,6 +4,19 @@
   "version": "0.1.0",
   "packageManager": "pnpm@10.18.3",
   "description": "antdv-next x auto import resolver based on unplugin-vue-components",
+  "license": "MIT",
+  "author": "antdv-next",
+  "keywords": [
+    "antdv-next",
+    "ant-design-vue",
+    "vue",
+    "unplugin",
+    "unplugin-vue-components",
+    "auto-import",
+    "resolver",
+    "components"
+  ],
+  "sideEffects": false,
   "homepage": "https://github.com/antdv-next/x-auto-import-resolver#readme",
   "repository": {
     "type": "git",
@@ -20,6 +33,7 @@
     },
     "./package.json": "./package.json"
   },
+  "types": "./dist/index.d.mts",
   "files": [
     "dist"
   ],
@@ -30,11 +44,20 @@
     "build": "tsdown",
     "test": "vitest run",
     "generate": "esno scripts/generate.ts",
-    "prepublish": "pnpm build",
+    "prepublishOnly": "pnpm build",
     "bump": "bumpp"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
+    "@antdv-next/x": ">=1.0.0",
     "unplugin-vue-components": ">=28.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@antdv-next/x": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@antfu/eslint-config": "^7.2.0",
