@@ -1,11 +1,8 @@
 {
   "name": "@antdv-next/auto-import-resolver-x",
+  "version": "0.0.1",
   "type": "module",
-  "version": "0.1.0",
-  "packageManager": "pnpm@10.18.3",
   "description": "antdv-next x auto import resolver based on unplugin-vue-components",
-  "license": "MIT",
-  "author": "antdv-next",
   "keywords": [
     "antdv-next",
     "ant-design-vue",
@@ -16,14 +13,15 @@
     "resolver",
     "components"
   ],
-  "sideEffects": false,
   "homepage": "https://github.com/antdv-next/auto-import-resolver-x#readme",
+  "bugs": {
+    "url": "https://github.com/antdv-next/auto-import-resolver-x/issues"
+  },
+  "license": "MIT",
+  "author": "antdv-next",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/antdv-next/auto-import-resolver-x.git"
-  },
-  "bugs": {
-    "url": "https://github.com/antdv-next/auto-import-resolver-x/issues"
   },
   "exports": {
     ".": {
@@ -37,9 +35,7 @@
   "files": [
     "dist"
   ],
-  "engines": {
-    "node": ">=20.19.0"
-  },
+  "sideEffects": false,
   "scripts": {
     "build": "tsdown",
     "test": "vitest run",
@@ -47,6 +43,10 @@
     "prepublishOnly": "pnpm build",
     "bump": "bumpp"
   },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "packageManager": "pnpm@10.18.3",
   "publishConfig": {
     "access": "public"
   },
