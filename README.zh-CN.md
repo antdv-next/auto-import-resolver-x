@@ -2,14 +2,16 @@
 
 [English](./README.md) | 简体中文
 
+[GitHub](https://github.com/antdv-next/auto-import-resolver-x) · [npm](https://www.npmjs.com/package/@antdv-next/x-auto-import-resolver)
+
 `@antdv-next/x-auto-import-resolver` 是 [unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components) 的一个解析器，用于实现 [@antdv-next/x](https://www.antdv-next.com/x) 组件的按需引入。
 
-### 特性
+## 特性
 
 - 支持 `Vite`, `Webpack`, `Rspack`, `Vue CLI`, `Rollup`, `esbuild` 等
 - 自动引入 `@antdv-next/x` 注册的所有组件（`Ax` 前缀组件，例如 `AxBubble`、`AxSender`、`AxWelcome` 等）
 
-### 安装
+## 安装
 
 ```shell
 # via npm

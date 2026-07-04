@@ -2,14 +2,16 @@
 
 English | [简体中文](./README.zh-CN.md)
 
+[GitHub](https://github.com/antdv-next/auto-import-resolver-x) · [npm](https://www.npmjs.com/package/@antdv-next/x-auto-import-resolver)
+
 `@antdv-next/x-auto-import-resolver` is a resolver for [unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components) that enables on-demand importing of [@antdv-next/x](https://www.antdv-next.com/x) components.
 
-### Features
+## Features
 
 - Supports `Vite`, `Webpack`, `Rspack`, `Vue CLI`, `Rollup`, `esbuild`, and more.
 - Automatically imports every component registered by `@antdv-next/x` (the `Ax`-prefixed components, e.g. `AxBubble`, `AxSender`, `AxWelcome`, ...).
 
-### Installation
+## Installation
 
 ```shell
 # via npm
