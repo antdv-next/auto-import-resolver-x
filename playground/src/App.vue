@@ -2,7 +2,7 @@
   <ax-provider>
     <ax-welcome
       title="Welcome to @antdv-next/x"
-      description="Components below are auto-imported by @antdv-next/x-auto-import-resolver."
+      description="Components below are auto-imported by @antdv-next/auto-import-resolver-x."
     />
     <ax-bubble
       content="Hello from AxBubble, resolved on demand!"

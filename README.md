@@ -2,9 +2,7 @@
 
 English | [简体中文](./README.zh-CN.md)
 
-[GitHub](https://github.com/antdv-next/auto-import-resolver-x) · [npm](https://www.npmjs.com/package/@antdv-next/x-auto-import-resolver)
-
-`@antdv-next/x-auto-import-resolver` is a resolver for [unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components) that enables on-demand importing of [@antdv-next/x](https://www.antdv-next.com/x) components.
+`@antdv-next/auto-import-resolver-x` is a resolver for [unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components) that enables on-demand importing of [@antdv-next/x](https://www.antdv-next.com/x) components.
 
 ## Features
 
@@ -15,16 +13,16 @@ English | [简体中文](./README.zh-CN.md)
 
 ```shell
 # via npm
-npm i @antdv-next/x-auto-import-resolver unplugin-vue-components -D
+npm i @antdv-next/auto-import-resolver-x unplugin-vue-components -D
 
 # via yarn
-yarn add @antdv-next/x-auto-import-resolver unplugin-vue-components -D
+yarn add @antdv-next/auto-import-resolver-x unplugin-vue-components -D
 
 # via pnpm
-pnpm add @antdv-next/x-auto-import-resolver unplugin-vue-components -D
+pnpm add @antdv-next/auto-import-resolver-x unplugin-vue-components -D
 
 # via Bun
-bun add @antdv-next/x-auto-import-resolver unplugin-vue-components -D
+bun add @antdv-next/auto-import-resolver-x unplugin-vue-components -D
 ```
 
 ## Usage
@@ -33,7 +31,7 @@ bun add @antdv-next/x-auto-import-resolver unplugin-vue-components -D
 
 ```ts
 // vite.config.ts
-import { AntdvNextXResolver } from '@antdv-next/x-auto-import-resolver'
+import { AntdvNextXResolver } from '@antdv-next/auto-import-resolver-x'
 import Components from 'unplugin-vue-components/vite'
 
 export default defineConfig({
@@ -49,7 +47,7 @@ export default defineConfig({
 
 ```ts
 // rollup.config.js
-import { AntdvNextXResolver } from '@antdv-next/x-auto-import-resolver'
+import { AntdvNextXResolver } from '@antdv-next/auto-import-resolver-x'
 import Components from 'unplugin-vue-components/rollup'
 
 export default {
@@ -65,7 +63,7 @@ export default {
 
 ```ts
 // webpack.config.js
-import { AntdvNextXResolver } from '@antdv-next/x-auto-import-resolver'
+import { AntdvNextXResolver } from '@antdv-next/auto-import-resolver-x'
 import Components from 'unplugin-vue-components/webpack'
 
 module.exports = {
@@ -81,7 +79,7 @@ module.exports = {
 
 ```ts
 // rspack.config.js
-import { AntdvNextXResolver } from '@antdv-next/x-auto-import-resolver'
+import { AntdvNextXResolver } from '@antdv-next/auto-import-resolver-x'
 import Components from 'unplugin-vue-components/rspack'
 
 module.exports = {
@@ -97,7 +95,7 @@ module.exports = {
 
 ```ts
 // vue.config.js
-import { AntdvNextXResolver } from '@antdv-next/x-auto-import-resolver'
+import { AntdvNextXResolver } from '@antdv-next/auto-import-resolver-x'
 import Components from 'unplugin-vue-components/webpack'
 
 module.exports = {
@@ -115,7 +113,7 @@ module.exports = {
 
 ```ts
 // esbuild.config.js
-import { AntdvNextXResolver } from '@antdv-next/x-auto-import-resolver'
+import { AntdvNextXResolver } from '@antdv-next/auto-import-resolver-x'
 import Components from 'unplugin-vue-components/esbuild'
 
 build({
@@ -134,7 +132,7 @@ components and `@antdv-next/icons` icons, register both resolvers together:
 
 ```ts
 import { AntdvNextResolver } from '@antdv-next/auto-import-resolver'
-import { AntdvNextXResolver } from '@antdv-next/x-auto-import-resolver'
+import { AntdvNextXResolver } from '@antdv-next/auto-import-resolver-x'
 import Components from 'unplugin-vue-components/vite'
 
 export default defineConfig({
