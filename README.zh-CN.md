@@ -200,3 +200,7 @@ Components({
 | `AxThoughtChain` | `ThoughtChain` |
 | `AxThoughtChainItem` | `ThoughtChainItem` |
 | `AxWelcome` | `Welcome` |
+
+## 许可证
+
+[MIT](./LICENSE) © 2026-present [antdv-next](https://github.com/antdv-next)

@@ -200,3 +200,7 @@ All components registered by `@antdv-next/x` are supported (27 in total):
 | `AxThoughtChain` | `ThoughtChain` |
 | `AxThoughtChainItem` | `ThoughtChainItem` |
 | `AxWelcome` | `Welcome` |
+
+## License
+
+[MIT](./LICENSE) © 2026-present [antdv-next](https://github.com/antdv-next)
